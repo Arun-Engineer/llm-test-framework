@@ -1,0 +1,10 @@
+-test-framework\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: E:\Automation\llm-test-framework
+plugins: anyio-4.15.1
+collected 1 item                                                               
+
+tests/test_llm_mocked.py::test_ask_strips_whitespace PASSED              [100%]
+
+============================== 1 passed in 1.75s ==============================
+(.venv) PS E:\Automation\llm-test-framework> 
