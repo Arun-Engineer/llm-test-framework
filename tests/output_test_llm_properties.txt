@@ -1,0 +1,12 @@
+(.venv) PS E:\Automation\llm-test-framework> python -m pytest tests/test_llm_properties.py -v
+============================= test session starts =============================
+platform win32 -- Python 3.14.0, pytest-9.1.1, pluggy-1.6.0 -- E:\Automation\llm-test-framework\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: E:\Automation\llm-test-framework
+plugins: anyio-4.15.1
+collected 1 item                                                               
+
+tests/test_llm_properties.py::test_capital_answer_contains_paris PASSED  [100%]
+
+============================== 1 passed in 4.30s ==============================
+(.venv) PS E:\Automation\llm-test-framework> 
