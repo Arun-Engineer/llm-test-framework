@@ -1,0 +1,15 @@
+(.venv) PS E:\Automation\llm-test-framework> python -m pytest tests/test_sentimental_eval.py -v
+============================= test session starts =============================
+platform win32 -- Python 3.14.0, pytest-9.1.1, pluggy-1.6.0 -- E:\Automation\llm-test-framework\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: E:\Automation\llm-test-framework
+plugins: anyio-4.15.1, playwright-0.10.0
+collected 4 items                                                              
+
+tests/test_sentimental_eval.py::test_sentiment_classification[I love this product!-positive] PASSED [ 25%]
+tests/test_sentimental_eval.py::test_sentiment_classification[This is terrible and broken-negative] PASSED [ 50%]
+tests/test_sentimental_eval.py::test_sentiment_classification[Best purchase ever-positive] PASSED [ 75%]
+tests/test_sentimental_eval.py::test_sentiment_classification[Worst experience of my life-negative] PASSED [100%]
+
+============================== 4 passed in 6.91s ==============================
+(.venv) PS E:\Automation\llm-test-framework> 
