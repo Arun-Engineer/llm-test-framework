@@ -4,7 +4,7 @@ def recall_at_k(retrieved: list, relevant: list) -> float:
     relevant_set = set(relevant)
 
     # How many relevant docs were actually retreieved?
-    found = relevant_set in retrieved_set
+    found = relevant_set & retrieved_set
 
     return len(found)/len(relevant_set)
 
