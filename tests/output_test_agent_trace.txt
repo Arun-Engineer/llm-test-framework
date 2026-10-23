@@ -1,0 +1,13 @@
+(.venv) PS E:\Automation\llm-test-framework> pytest tests/test_agent_trace.py -v
+
+============================= test session starts =============================
+platform win32 -- Python 3.14.0, pytest-9.1.1, pluggy-1.6.0 -- E:\Automation\llm-test-framework\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: E:\Automation\llm-test-framework
+plugins: anyio-4.15.1, playwright-0.10.0
+collected 1 item                                                               
+
+tests/test_agent_trace.py::test_agent_calls_tools_in_correct_order PASSED [100%]
+
+============================== 1 passed in 0.06s ==============================
+(.venv) PS E:\Automation\llm-test-framework> 
